@@ -1,0 +1,7 @@
+simple_factory: 
+  chart_type: pie
+factory_pattern: 
+  factory: factory_pattern.factory_pattern.LineFactory
+  chart_type: basic_line
+abstract_factory: 
+  chart: factory_pattern.abstract_factory.BasicLine
