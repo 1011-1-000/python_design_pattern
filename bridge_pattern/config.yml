@@ -1,0 +1,2 @@
+os: bridge_pattern.bridge.UnixImp
+image: bridge_pattern.bridge.JPGImage
