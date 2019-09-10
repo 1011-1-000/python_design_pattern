@@ -8,6 +8,7 @@ from prototype_pattern.prototype import test_prototype
 from bridge_pattern.bridge import test_bridge
 from composite_pattern.composite import test_composite
 from decorator_pattern.decorator import test_decorator
+from facade_pattern.facade import test_facade
 
 if __name__ == "__main__":
     # test_simple_factory()
@@ -16,4 +17,5 @@ if __name__ == "__main__":
     # test_singletion_threading()
     # test_prototype()
     # test_composite()
-    test_decorator()
+    # test_decorator()
+    test_facade()
