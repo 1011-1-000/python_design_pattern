@@ -23,7 +23,7 @@ class Logger:
         print('log the call function')
 
 
-class SearchEngine:
+class SearchEngine(metaclass=abc.ABCMeta):
 
     def __init__(self):
         print('init the SearchEngine')
