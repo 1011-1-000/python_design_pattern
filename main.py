@@ -9,6 +9,7 @@ from bridge_pattern.bridge import test_bridge
 from composite_pattern.composite import test_composite
 from decorator_pattern.decorator import test_decorator
 from facade_pattern.facade import test_facade
+from proxy_pattern.proxy import test_proxy
 
 if __name__ == "__main__":
     # test_simple_factory()
@@ -18,4 +19,5 @@ if __name__ == "__main__":
     # test_prototype()
     # test_composite()
     # test_decorator()
-    test_facade()
+    # test_facade()
+    test_proxy()
